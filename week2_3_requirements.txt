@@ -1,0 +1,23 @@
+# Additional requirements for Week 2-3: Adapter Design
+# Install these in addition to the base requirements.txt
+
+# Core dependencies (should already be installed from base setup)
+torch>=2.0.0
+transformers>=4.30.0
+peft>=0.4.0
+datasets>=2.10.0
+accelerate>=0.20.0
+
+# Training and evaluation specific
+evaluate>=0.4.0
+wandb>=0.15.0
+scikit-learn>=1.0.0
+numpy>=1.21.0
+
+# For AlpacaEval (optional - can be installed separately)
+# alpaca-eval
+
+# Additional utilities
+tqdm>=4.60.0
+matplotlib>=3.5.0
+seaborn>=0.11.0

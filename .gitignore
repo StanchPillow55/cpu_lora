@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+cpu_lora_env/
+venv/
+env/
+ENV/
+
+# ML/AI specific
+*.pkl
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+*.pt
+*.pth
+*.bin
+*.safetensors
+wandb/
+mlruns/
+*.log
+
+# Training artifacts
+*_checkpoints/
+*_logs/
+*_adapter/
+*.json
+evaluation_*.txt
+evaluation_*.json
+
+# Model files
+*.gguf
+*.ggml
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Data files (but keep small sample datasets)
+!renewable_energy_dataset.json
+
+# Secret/config files
+.env
+config.ini
+secrets.json
